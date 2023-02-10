@@ -1,0 +1,30 @@
+{
+  "name": "mhpin-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "mhp": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["bin", "lib"],
+  "author": {
+    "name": "sj216",
+    "email": "7862128822@qq.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
+    "ora": "^5.4.0"
+  }
+}
